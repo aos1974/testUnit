@@ -1,2 +1,9 @@
+https://docs.python.org/3/library/unittest.html
+
 https://habr.com/ru/company/otus/blog/481806/
+https://habr.com/ru/company/otus/blog/433358/
+
+https://zen.yandex.ru/media/id/5b7ae22633ef9b00a8cc79f3/python-vvedenie-v-testirovanie-5c8354d8d2350300b47cce95
+https://zen.yandex.ru/media/id/5b7ae22633ef9b00a8cc79f3/python-vvedenie-v-testirovanie-chast-2-5c95ef6319fa6800b3c9d6a9
+
 https://pythonworld.ru/moduli/modul-unittest.html
