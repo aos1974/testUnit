@@ -38,10 +38,23 @@ class TestDZ21(unittest.TestCase):
     
     # тестируем функцию удаления документа
     # функция так названа т.к. исполнение тестов идет по алфавиту
-    def test_remove_document(self):
+    def test_xdel_document(self):
+        # проверяем, что процесс удаления прошел без ошибок
         self.assertWarns(dz21.del_document(self.document.get('number')))
+        # удаленные элементы не должны быть найдены ни на полках
+        self.assertNotEqual(dz21.find_dir(self.document.get('number')), list(self.directories.keys())[0])
+        # ни в списке документов
+        self.assertNotEqual(dz21.find_people(self.document.get('number')), self.document.get('name'))
     # end test_del_document
-    
+
+    # тестируем функцию перемещения документа
+    def test_mov_document(self):
+        # проверяем, что процесс перемещения прошел без ошибок
+        self.assertWarns(dz21.mov_document(self.document.get('number'), '3'))
+        # проверяем, что перемещение на полку №3 прошло успешно
+        self.assertEqual(dz21.find_dir(self.document.get('number')), '3')
+    # end test_mov_document
+
 # end class TestDZ21
 
 #
