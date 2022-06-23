@@ -21,7 +21,7 @@ class TestDZ21(unittest.TestCase):
     # инициализируем тестовое окружение
     @classmethod
     def setUpClass(cls):
-        # задаем тестовые значения для списка документов
+        # задаем тестовые значения для списков документов
         cls.document = {"type": "passport", "number": "2207 876234", "name": "Василий Гупкин"}   
         cls.directories = {'1': ['2207 876234', '11-2', '5455 028765']}   
     # end setUpClass
