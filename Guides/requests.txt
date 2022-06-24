@@ -1,0 +1,2 @@
+https://pythonru.com/biblioteki/kratkoe-rukovodstvo-po-biblioteke-python-requests
+https://python-scripts.com/requests

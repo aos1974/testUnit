@@ -1,0 +1,5 @@
+https://habr.com/ru/post/141209/
+https://nuancesprog.ru/p/1161/
+https://kirill-sklyarenko.ru/lenta/python-patches-mocks-anti-patterns
+
+https://pythonru.com/biblioteki/redis-python

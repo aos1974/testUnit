@@ -1,0 +1,2 @@
+https://yandex.ru/dev/disk/api/concepts/quickstart.html
+https://yandex.ru/dev/disk/poligon/#access_token=AQAAAAAAEXASAADLW3F-yNzR-0K8tmaC2kHRffE&token_type=bearer&expires_in=31536000
